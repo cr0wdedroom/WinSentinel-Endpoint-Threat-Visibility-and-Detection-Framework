@@ -5,13 +5,13 @@ This project demonstrates applied SOC Analyst skills by combining Sysmon, Sysint
 
 🛡️Project Objectives:
 
-Build a robust endpoint logging and detection lab
+1) Build a robust endpoint logging and detection lab
 
-Simulate real-world attacker behavior (recon, persistence, privilege escalation)
+2) Simulate real-world attacker behavior (recon, persistence, privilege escalation)
 
-Detect anomalies using custom Sysmon rules, Osquery packs, and Wazuh alerts
+3) Detect anomalies using custom Sysmon rules, Osquery packs, and Wazuh alerts
 
-Showcase core SOC skills: event correlation, telemetry analysis, and alert triage
+4) Showcase core SOC skills: event correlation, telemetry analysis, and alert triage
 
 
 ## Step 1: Wazuh Manager Active Status
