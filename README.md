@@ -13,7 +13,9 @@ Detect anomalies using custom Sysmon rules, Osquery packs, and Wazuh alerts
 
 Showcase core SOC skills: event correlation, telemetry analysis, and alert triage
 
-## Wazuh Manager Running
+## Wazuh Manager Active Status
 
 ![Wazuh Manager Active Status](screenshots/wazuh-manager-active-status.png)
+
+## Wazuh Manager Port Listening
 ![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
