@@ -14,7 +14,7 @@ This project demonstrates applied SOC Analyst skills by combining Sysmon, Sysint
 4) Showcase core SOC skills: event correlation, telemetry analysis, and alert triage
 
 
-## Step 1: Wazuh Manager Active Status
+## Step 1: Installing and Checking Wazuh Manager Status
 Installed the Wazuh Manager on my Kali Linux virtual machine. The Wazuh Manager acts as the central server that collects, analyzes, and stores security data received from various agents.
 
 Installation Summary:
@@ -30,3 +30,5 @@ After installation, I started and enabled the Wazuh Manager service and checked 
 Wazuh Manager is listening on Port 55000.
 
 ![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
+
+## Step 2: Installing Wazuh Agent on Windows 11 & Connecting to Wazuh Manager on Kali VM
