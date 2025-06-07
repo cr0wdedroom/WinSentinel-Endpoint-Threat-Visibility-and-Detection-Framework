@@ -27,7 +27,6 @@ After installation, I started and enabled the Wazuh Manager service and checked 
 
 ![Wazuh Manager Active Status](screenshots/wazuh-manager-active-status.png)
 
-## Step 2: Wazuh Manager Port Listening
 Wazuh Manager is listening on Port 55000.
 
 ![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
