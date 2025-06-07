@@ -13,8 +13,21 @@ Detect anomalies using custom Sysmon rules, Osquery packs, and Wazuh alerts
 
 Showcase core SOC skills: event correlation, telemetry analysis, and alert triage
 
+
 ## Step 1: Wazuh Manager Active Status
-Installed Wazuh Manager on my Kali VM and checked to see the running status.
+Installed the Wazuh Manager on my Kali Linux virtual machine. The Wazuh Manager acts as the central server that collects, analyzes, and stores security data received from various agents.
+
+Installation Summary:
+
+Installed using the official Wazuh repository.
+
+Followed proper setup steps, ensuring all necessary dependencies were met.
+
+Ensured no broken configuration in ossec.conf by validating with xmllint.
+
+Service Activation:
+
+After installation, I started and enabled the Wazuh Manager service and checked the running status.
 
 ![Wazuh Manager Active Status](screenshots/wazuh-manager-active-status.png)
 
