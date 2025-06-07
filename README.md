@@ -15,8 +15,10 @@ Showcase core SOC skills: event correlation, telemetry analysis, and alert triag
 
 ## Step 1: Wazuh Manager Active Status
 Installed Wazuh Manager on my Kali VM and checked to see the running status.
+
 ![Wazuh Manager Active Status](screenshots/wazuh-manager-active-status.png)
 
 ## Step 2: Wazuh Manager Port Listening
 Wazuh Manager is listening on Port 55000.
+
 ![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
