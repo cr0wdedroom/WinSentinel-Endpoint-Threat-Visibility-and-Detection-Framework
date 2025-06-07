@@ -15,4 +15,5 @@ Showcase core SOC skills: event correlation, telemetry analysis, and alert triag
 
 ## Wazuh Manager Running
 
-![Wazuh Manager Running](screenshots/wazuh-manager-active-status.png)
+![Wazuh Manager Active Status](screenshots/wazuh-manager-active-status.png)
+![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
