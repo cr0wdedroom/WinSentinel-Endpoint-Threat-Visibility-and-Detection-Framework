@@ -38,7 +38,6 @@ On Kali, I generated an authentication key and added the Windows agent with a na
 
 ![Wazuh Manager Listed Agents](screenshots/wazuh-manager-listed-agents.png)
 
-On Kali, I generated an authentication key and added the Windows agent with a name and IP address and copied the generated key and pasted it in the Wazuh Agent registration on Windows.
 Installation Summary:
 1) Downloaded Wazuh Agent for Windows from the official site.
 2) Ran the installer and completed the GUI-based setup.
@@ -46,10 +45,10 @@ Installation Summary:
  
   Manager IP: IP of the Kali VM 
   
-  Registration key: Generated from the Wazuh Manager using the manage_agents CLI tool.
+  Authentication key: Generated from the Wazuh Manager using the manage_agents CLI tool.
   
 ![Wazuh Agent Running Status](screenshots/wazuh-agent-running-status.png)
 
-Started the Wazuh Agent from the GUI on Windows and verified connectivity from Kali.
+Started the Wazuh Agent from the GUI on Windows and verified connectivity (active status) from Kali.
 
 ![Wazuh Agent Active Status](screenshots/wazuh-agent-active-status.png)
