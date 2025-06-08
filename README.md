@@ -38,7 +38,9 @@ To enable endpoint telemetry from the Windows VM, I installed and configured the
 2) Downloaded Wazuh Agent for Windows from the official site.
 3) Ran the installer and completed the GUI-based setup.
 4) When prompted, I entered:
+ 
   Manager IP: IP of the Kali VM 
+  
   Registration key: Generated from the Wazuh Manager using the manage_agents CLI tool.
 
 ![Wazuh Manager Listed Agents](screenshots/wazuh-manager-listed-agents.png)
