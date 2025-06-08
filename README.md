@@ -32,3 +32,7 @@ Wazuh Manager is listening on Port 55000.
 ![Wazuh Manager Port Listening](screenshots/wazuh-manager-port-listening.png)
 
 ## Step 2: Installing Wazuh Agent on Windows 11 & Connecting to Wazuh Manager on Kali VM
+
+![Wazuh Agent Running Status](screenshots/wazuh-agent-running-status.png)
+![Wazuh Manager Listed Agents](screenshots/wazuh-manager-listed-agents.png)
+![Wazuh Agent Active Status](screenshots/wazuh-agent-active-status.png)
