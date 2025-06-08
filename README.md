@@ -34,19 +34,20 @@ Wazuh Manager is listening on Port 55000.
 ## Step 2: Installing Wazuh Agent on Windows 11 & Connecting to Wazuh Manager on Kali VM
 To enable endpoint telemetry from the Windows VM, I installed and configured the Wazuh Agent, which forwards event data to the Wazuh Manager running on my Kali Linux system.
 
-1) Installation Summary:
-2) Downloaded Wazuh Agent for Windows from the official site.
-3) Ran the installer and completed the GUI-based setup.
-4) When prompted, I entered:
- 
-  Manager IP: IP of the Kali VM 
-  
-  Registration key: Generated from the Wazuh Manager using the manage_agents CLI tool.
+On Kali, I generated an authentication key and added the Windows agent with a name and IP address and copied the generated key and pasted it in the Wazuh Agent registration on Windows.
 
 ![Wazuh Manager Listed Agents](screenshots/wazuh-manager-listed-agents.png)
 
 On Kali, I generated an authentication key and added the Windows agent with a name and IP address and copied the generated key and pasted it in the Wazuh Agent registration on Windows.
-
+Installation Summary:
+1) Downloaded Wazuh Agent for Windows from the official site.
+2) Ran the installer and completed the GUI-based setup.
+3) When prompted, I entered:
+ 
+  Manager IP: IP of the Kali VM 
+  
+  Registration key: Generated from the Wazuh Manager using the manage_agents CLI tool.
+  
 ![Wazuh Agent Running Status](screenshots/wazuh-agent-running-status.png)
 
 Started the Wazuh Agent from the GUI on Windows and verified connectivity from Kali.
