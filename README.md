@@ -52,3 +52,16 @@ Installation Summary:
 Started the Wazuh Agent from the GUI on Windows and verified connectivity (active status) from Kali.
 
 ![Wazuh Agent Active Status](screenshots/wazuh-agent-active-status.png)
+
+## Step 3: Setting Up Sysmon on Windows 11
+To monitor low-level system activities, I installed Sysmon (System Monitor) from Sysinternals on the Windows VM. Sysmon extends event logging and helps in tracking process creation, network connections, file writes, registry changes, etc.
+
+Downloaded Sysmon zip package from official website and used a custom Sysmon configuration file (sysmonconfig-export.xml) from GitHub tailored to capture relevant events for attack detection.
+
+![Sysmon Zip Package and Config File](screenshots/sysmon-zip-package-and-config-file.png)
+
+Installed Sysmon and verified the service is running.
+
+![Sysmon Installation and verification](screenshots/sysmon-intallation-and-verification.png)
+
+## Step 4: Setting Up OsQuery on Windows 11 
