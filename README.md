@@ -65,3 +65,19 @@ Installed Sysmon and verified the service is running.
 ![Sysmon Installation and verification](screenshots/sysmon-intallation-and-verification.png)
 
 ## Step 4: Setting Up OsQuery on Windows 11 
+To extend host-level visibility on the Windows VM, I installed Osquery, an open-source endpoint visibility agent that exposes system information as a relational database. This allows structured querying of running processes, network connections, system info, registry values, and more using SQL-like syntax.
+
+Installation Summary:
+1) Downloaded the Osquery MSI installer from the official Osquery GitHub releases.
+2) Installed Osquery as a service by running the installer and verifying osqueryd was registered correctly.
+3) Ensured Osquery starts automatically and logs events to the correct directory:
+
+Logs are located at:
+
+C:\Program Files\osquery\log\osqueryd.results.log
+
+After installation, I checked the log files to confirm Osquery was running and collecting data. The output showed successful event capture from a scheduled query pack.
+
+![Osquery Verification](screenshots/osquery-verification.png)
+
+## Step 5: 
