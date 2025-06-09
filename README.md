@@ -68,9 +68,9 @@ Installed Sysmon and verified the service is running.
 To extend host-level visibility on the Windows VM, I installed Osquery, an open-source endpoint visibility agent that exposes system information as a relational database. This allows structured querying of running processes, network connections, system info, registry values, and more using SQL-like syntax.
 
 Installation Summary:
-1) Downloaded the Osquery MSI installer from the official Osquery GitHub releases.
-2) Installed Osquery as a service by running the installer and verifying osqueryd was registered correctly.
-3) Ensured Osquery starts automatically and logs events to the correct directory:
+1) Installed Osquery via official .msi installer.
+2) Verified functionality using osqueryi interactive shell.
+3) Created a custom osquery.conf with scheduled queries to monitor login sessions and PowerShell processes.
 
 Logs are located at:
 
