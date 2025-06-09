@@ -70,17 +70,23 @@ To extend host-level visibility on the Windows VM, I installed Osquery, an open-
 Installation Summary:
 1) Installed Osquery via official .msi installer.
 2) Verified functionality using osqueryi interactive shell.
-3) Created a custom osquery.conf with scheduled queries to monitor login sessions and PowerShell processes.
+3) Modified osquery.conf with scheduled queries to monitor login sessions and PowerShell processes.
+
+![Osquery Config Modification](screenshots/osquery-config-modification.png)
 
 Logs are located at:
 
 C:\Program Files\osquery\log\osqueryd.results.log
 
-After installation, I checked the log files to confirm Osquery was running and collecting data. The output showed successful event capture from a scheduled query pack.
+After installation, I checked the log files to confirm Osquery was running and collecting data.
 
 ![Osquery Verification](screenshots/osquery-verification.png)
 
-These logs are forwarded to the Wazuh Manager using the Wazuh agent’s file monitoring configuration.
+Modified the Wazuh Agent's ossec.conf on Windows VM to monitor Osquery logs locally.
+
+![Wazuh Config Modification](screenshots/wazuh-config-modification.png)
+
+Restarted the Wazuh Agent service on Windows VM to apply the config and then on Kali Wazuh Manager, confirmed Osquery log ingestion.
 
 ![Wazuh Osquery Verification](screenshots/wazuh-osquery-verification.png)
 
