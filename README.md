@@ -80,4 +80,8 @@ After installation, I checked the log files to confirm Osquery was running and c
 
 ![Osquery Verification](screenshots/osquery-verification.png)
 
+These logs are forwarded to the Wazuh Manager using the Wazuh agent’s file monitoring configuration.
+
+![Wazuh Osquery Verification](screenshots/wazuh-osquery-verification.png)
+
 ## Step 5: 
